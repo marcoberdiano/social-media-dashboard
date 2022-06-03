@@ -57,7 +57,7 @@
 .primary-card-container {
   padding: 1em;
   border-radius: 5px;
-  width: 18em;
+  width: 13em;
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -116,7 +116,7 @@
 .secondary-card-container {
   padding: 1em;
   border-radius: 5px;
-  width: 18em;
+  width: 13em;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -196,8 +196,7 @@
 
 .app .app-container {
   transition: all 0.3s;
-  padding: 2em 5em;
-  border: 1px solid blue;
+  padding: 2em 15em;
 }
 .app .app-container .dashboard .social-container, .app .app-container .dashboard .overView-container {
   display: flex;
