@@ -1,0 +1,46 @@
+.secondary-card-container {
+    padding: 1em;
+    border-radius: 5px;
+    width: 15em;
+    margin-top: 10px;
+    cursor: pointer;
+    .card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-body{
+        display: flex;
+        margin-top: 1em;
+        justify-content: space-between;
+        align-items: center;
+       
+
+        .cardfooter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            font-weight: 700;
+
+            .positive {
+                color: $LimeGreen;
+            }
+
+            .negative {
+                color: $BrightRed;
+            }
+        }
+        .views {
+            font-size: 2em;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 830px) {
+    .secondary-card-container {
+        width: 100%;
+    }
+}

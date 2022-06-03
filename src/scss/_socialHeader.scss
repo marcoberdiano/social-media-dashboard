@@ -1,0 +1,23 @@
+.social-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    .social-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .social-right {
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: 1px solid $DesaturatedBlue;
+        justify-content: space-between;
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+@import './colors';
+
+
+.light {
+
+    .app-bg {
+        background-color: $White;
+    };
+
+    .primary-text {
+        color: $VeryDarkBlue;
+    }
+  
+    .secondary-text {
+        color: $DarkGrayishBlue;
+    }
+  
+    .card-bg {
+        background-color: $LightGrayishBlue;
+    }
+
+    .hover-light {
+        &:hover {
+            background-color: hsl(228, 12%, 90%);
+        }
+    }
+}
+  
+.dark {
+  
+    .app-bg {
+        background-color: $VeryDarkBlue;
+    }
+
+    .primary-text {
+        color: $White;
+    }
+  
+    .secondary-text {
+        color: $DesaturatedBlue;
+    }
+  
+    .card-bg {
+        background-color: $DarkDesaturatedBlue;
+    }
+
+    .hover-dark {
+        &:hover {
+            background-color: hsl(228, 30%, 30%);
+        }
+    }
+  
+}
+
+
+

@@ -1,0 +1,88 @@
+
+    {
+        "followers": 23004,
+
+        
+        "social": [
+            {
+                "app":"facebook",
+                "user": "nathanf",
+                "totalFollowers": 1987,
+                "dailyFollowers": 12,
+                "color": "hsl(208, 92%, 53%)"
+            },
+            {
+                "app":"twitter",
+                "user": "nathanf",
+                "totalFollowers": 1044,
+                "dailyFollowers": 99,
+                "color": "hsl(203, 89%, 53%)"
+            },
+            {
+                "app":"instagram",
+                "user": "nathanf",
+                "totalFollowers": 11000,
+                "dailyFollowers": 1099,
+                "color": "linear-gradient( to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))"
+            },
+            {
+                "app":"youtube",
+                "user": "nathanf",
+                "totalFollowers": 8239,
+                "dailyFollowers": -144,
+                "color": "hsl(348, 97%, 39%)"
+            }
+        ],
+        
+        
+        "overview": [
+            {
+                "social": "facebook",
+                "desc": "Page Views",
+                "total": 87,
+                "gain": 3   
+            },
+            {
+                "social": "facebook",
+                "desc": "Likes",
+                "total": 52,
+                "gain": -2   
+            },
+            {
+                "social": "instagram",
+                "desc": "Likes",
+                "total": 5462,
+                "gain": 2257  
+            },
+            {
+                "social": "instagram",
+                "desc": "Page Views",
+                "total": 52,
+                "gain": 1375   
+            },
+            {
+                "social": "twitter",
+                "desc": "Retweets",
+                "total": 117,
+                "gain": 303   
+            },
+            {
+                "social":"twitter",
+                "desc": "Likes",
+                "total": 507,
+                "gain": 553 
+            },
+            {
+                "social": "youtube",
+                "desc": "Likes",
+                "total": 87,
+                "gain": -19  
+            },
+            {
+                "social": "youtube",
+                "desc": "Total Views",
+                "total": 1407,
+                "gain": -12   
+            }
+        ]
+    }
