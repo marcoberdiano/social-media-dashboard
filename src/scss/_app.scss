@@ -5,19 +5,23 @@
 @import './switch/style';
 
 .app {
-    
+   
     .app-container {
         transition: all 0.3s;
-        padding: 2em 15em;
+        padding: 2em 10em;
         
         .dashboard{
 
             .social-container, .overView-container {
-                display: flex;
+                /*display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
                 gap: 10px;
-                align-items: center;
+                align-items: center;*/
+                display: grid;
+                grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
+                justify-content: space-between;
+                gap: 10px;
             }
             
             .social-container {
@@ -28,7 +32,11 @@
                 margin-top: 1em;
             }
         }
+    }
 
+    .footer{
+        text-align: center;
+        font-size: 0.8em;
     }
 }
 

@@ -57,7 +57,7 @@
 .primary-card-container {
   padding: 1em;
   border-radius: 5px;
-  width: 13em;
+  width: 100%;
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -116,8 +116,7 @@
 .secondary-card-container {
   padding: 1em;
   border-radius: 5px;
-  width: 13em;
-  margin-top: 10px;
+  width: 100%;
   cursor: pointer;
 }
 .secondary-card-container .card-head {
@@ -196,20 +195,28 @@
 
 .app .app-container {
   transition: all 0.3s;
-  padding: 2em 15em;
+  padding: 2em 10em;
 }
 .app .app-container .dashboard .social-container, .app .app-container .dashboard .overView-container {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
-  align-items: center;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: space-between;
+  gap: 10px;
 }
 .app .app-container .dashboard .social-container {
   margin: 2em 0em;
 }
 .app .app-container .dashboard .overView-container {
   margin-top: 1em;
+}
+.app .footer {
+  text-align: center;
+  font-size: 0.8em;
 }
 
 @media only screen and (max-width: 375px) {
