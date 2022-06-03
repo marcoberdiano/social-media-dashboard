@@ -8,13 +8,13 @@
     
     .app-container {
         transition: all 0.3s;
-        padding: 2em 20em;
+        padding: 2em 22em;
        
         .dashboard{
 
             .social-container, .overView-container {
                 display: grid;
-                grid-template-columns: repeat( auto-fit, minmax(230px, 1fr) );
+                grid-template-columns: repeat( auto-fit, minmax(210px, 1fr) );
                 justify-content: space-between;
                 gap: 10px;
             }
