@@ -1,11 +1,13 @@
 .primary-card-container {
-    padding: 2.5em;
+    padding: 1em;
     border-radius: 5px;
-    width: 15em;
-    text-align: center;
+    width: 13em;
+    display: grid;
+    place-items: center;
     cursor: pointer;
     position: relative;
-
+    text-align: center;
+    
     /*&::before {
         content: '';
         background-color: red;

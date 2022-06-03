@@ -55,12 +55,14 @@
   }
 }
 .primary-card-container {
-  padding: 2.5em;
+  padding: 1em;
   border-radius: 5px;
-  width: 15em;
-  text-align: center;
+  width: 13em;
+  display: grid;
+  place-items: center;
   cursor: pointer;
   position: relative;
+  text-align: center;
   /*&::before {
       content: '';
       background-color: red;
@@ -114,7 +116,7 @@
 .secondary-card-container {
   padding: 1em;
   border-radius: 5px;
-  width: 15em;
+  width: 13em;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -143,7 +145,7 @@
   color: hsl(356deg, 69%, 56%);
 }
 .secondary-card-container .card-body .views {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 @media only screen and (max-width: 830px) {
@@ -194,7 +196,7 @@
 
 .app .app-container {
   transition: all 0.3s;
-  padding: 2em 10em;
+  padding: 2em 15em;
 }
 .app .app-container .dashboard .social-container, .app .app-container .dashboard .overView-container {
   display: flex;
